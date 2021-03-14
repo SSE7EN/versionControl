@@ -13,19 +13,19 @@ Then, when trying to save, both hashes are compared to determine if a change has
 
 The program is run from the command line with the appropriate
 switch:
-`
+<br/>
 	initializing base folder:
-	vcInit
+	vcInit <br/>
 	returns data about the current project:
-	vcProjectInfo
+	vcProjectInfo <br/>
 	returns data about the current project:
-	vcCreateProject -n project name -d description
+	vcCreateProject -n project name -d description <br/>
 	change of the current project:
-	vcCheckout -n project name
+	vcCheckout -n project name <br/>
 	save version:
-	vcPush -f filename -d description
+	vcPush -f filename -d description <br/>
 	version download:
-	vcPull -f file to write -id version id
+	vcPull -f file to write -id version id <br/>
 	returns all versions of the project:
-	vcGetVersions  
-`
+	vcGetVersions  <br/>
+

@@ -1,0 +1,44 @@
+9. System wersjonowania
+Prosz� napisa� program przechowuj�cy histori� edycji pliku. W sk�ad historii powinny wchodzi�
+wszystkie archiwalne wersje pliku, wraz z czasem i opisem wprowadzenia edycji (edycja pliku polega
+na dodaniu nowej wersji pliku z dysku). Program powinien mie� mo�liwo�� wyodr�bnienia dowolnej
+historycznej wersji pliku, a tak�e cofni�cia okre�lonej liczby zmian. Ca�a historia powinna by�
+zapisywana i wczytywana z pliku binarnego.
+Uwagi techniczne
+Jako struktur� danych prosz� zastosowa� list�, kt�rej ka�dym elementem b�dzie dynamiczna
+tablica przechowuj�ca zawarto�� danej wersji pliku.
+
+
+
+
+
+
+
+
+
+
+
+
+ Viewed 31k times 
+
+Dzie� dobry,
+
+przypominam Pa�stwu kilka spraw zwi�zanych z wykonaniem programu zaliczeniowego:
+- program musi by� napisany w j�zyku C,
+- program powinien by� wykonany w �rodowisku Visual Studio; w przypadku korzystania z innego �rodowiska prosz� dostarczy� skrypty (np. Make albo Batch/Bash) pozwalaj�ce na bezproblemow� kompilacj� przy pomocy GCC,
+- kod powinien by� sukcesywnie umieszczany w indywidualnym repozytorium w serwisie GitHub przy pomocy klienta Gita (nie poprzez opcj� przesy�ania plik�w obecn� na stronie),
+- kod powinien by� wyczerpuj�co skomentowany w formacie doxygen,
+- program powinien by� napisany zgodnie z dobrymi zwyczajami, kt�rymi s� m.in. w�a�ciwe nazewnictwo funkcji i zmiennych, podzia� kodu na pliki .c i .h, implementacja kr�tkich funkcji (zwykle je�li funkcja d�u�sza ni� ok. 20 linii powinna zosta� skr�cona),
+- program powinien posiada� wyra�nie oddzielon� cz�� odpowiedzialn� za komunikacj� z u�ytkownikiem od cz�ci realizuj�cej algorytm (np. funkcja wstawiaj�ca do listy nigdy nie powinna pyta� u�ytkownika o dane, funkcja ta powinna otrzymywa� dane jako parametry),
+- w programie nie mog� si� pojawia� wycieki pami�ci.
+
+W celu uzyskania zaliczenia:
+- nale�y indywidualnie skonsultowa� ze mn� program. Od poniedzia�ku b�dzie mo�liwo�� zapisania si� na Platformie na konsultacje przy pomocy systemu edumeet,
+- je�li w czasie konsultacji zg�osz� Pa�stwu uwagi do kodu, b�dzie mo�na je (przed terminem oddania) uwzgl�dni� poprawiaj�c kod,
+- po zako�czeniu pracy nad programem na Platformie nale�y umie�ci� sprawozdanie w formacie PDF (zgodnie z szablonem, z kt�rego korzystali Pa�stwo na PPK) oraz wygenerowan� dokumentacj� doxygen (w formacie HTML lub PDF). Przes�anie sprawozdania jest dla mnie jednoznaczne z sygnalizacj� zako�czenia pracy oraz powoduje wystawienie oceny.
+
+Ponadto przypominam Pa�stwu, �e je�eli w projekcie jest mowa o pliku binarnym, nale�y go obs�u�y� przy pomocy funkcji fread i fwrite (funkcje fprintf, fscanf i fgets s�u�� wy��cznie do pracy z plikami tekstowymi).
+
+Przypominam te� o wykonaniu zada� laboratoryjnych. Kolokwium z przedmiotu obejmuje tre�ci poruszane w tych zadaniach.
+
+W razie w�tpliwo�ci do powy�szych wytycznych prosz� si� zawczasu dopyta�.

@@ -1,0 +1,4 @@
+MyDefine
+MyType
+myFunction()
+my_variable

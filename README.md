@@ -9,10 +9,11 @@ Then, when trying to save, both hashes are compared to determine if a change has
 
 
 
-##Run
+## Run
 
 The program is run from the command line with the appropriate
 switch:
+`
 	initializing base folder:
 	vcInit
 	returns data about the current project:
@@ -27,3 +28,4 @@ switch:
 	vcPull -f file to write -id version id
 	returns all versions of the project:
 	vcGetVersions  
+`
